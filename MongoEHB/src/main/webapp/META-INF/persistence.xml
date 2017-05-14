@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+	
+	<persistence-unit name="studentPersistenceUnit" transaction-type="RESOURCE_LOCAL" >
+		  <provider>org.hibernate.ejb.HibernatePersistence</provider>
+		  <class>com.perf.blog.model.StudentDetails</class>
+	</persistence-unit>
+	
+</persistence>
